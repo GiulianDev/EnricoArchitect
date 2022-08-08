@@ -1,8 +1,11 @@
 <ion-app>
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
-      <ion-content>
+
+      <ion-content class="menu-container">
+
         <ion-list id="inbox-list">
+
           <ion-list-header>Enrico Architect</ion-list-header>
           <ion-note>enrico.lamacchia@google.com</ion-note>
 
@@ -13,7 +16,17 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+
       </ion-content>
+        
+        
+      <ion-footer>
+        <ion-list class="discover-more-list">
+          <div class="item">Discover more</div>
+          <div class="item">Contacts</div>
+        </ion-list>
+      </ion-footer>
+
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
   </ion-split-pane>

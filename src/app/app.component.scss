@@ -121,3 +121,17 @@ ion-item.selected {
 ion-list {
   border: 0px!important;
 }
+
+
+.discover-more-list {
+  .item {
+    font-size: 0.8rem;
+    color: rgb(134, 134, 134);
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  .item:hover {
+    cursor: pointer;
+    transform: scale(1.1) translateX(1rem);
+  }
+}
